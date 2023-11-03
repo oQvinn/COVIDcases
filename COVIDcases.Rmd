@@ -4,8 +4,10 @@ author: "Quinn Wegner"
 date: "11/12/2021"
 output:
   pdf_document: default
-  html_document:
+  github_document:
     df_print: paged
+  
+
 ---
 
 ```{r setup, include=FALSE}
@@ -361,7 +363,7 @@ for(j in 1:B){
     k.mom.values[j] = k.mom.values[-k.mom.values[j]]
   }
   if(lam.mom.values[j] >= 100){
-    lam.mom.values[j] = lam.mom.values[-lam..mom.values[j]]
+    lam.mom.values[j] = lam.mom.values[-lam.mom.values[j]]
   }
 }
 "Mean of MOM.k"
